@@ -1,1 +1,1 @@
-A barebones basic javascript implementation of the classic game!
+A simple implementation of grade-school classic “rock paper scissors”
