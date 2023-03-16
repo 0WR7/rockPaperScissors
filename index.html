@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
     <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>    
 <body>
+    <h1>Rock Paper Scissors Game</h1>
+    <p>Click one of the buttons below to make your choice:</p>
+    <div>
+        <button id="rock" class="button" onclick="buttonClicked(event)">Rock</button>
+        <button id="paper" class="button" onclick="buttonClicked(event)">Paper</button>
+        <button id="scissors" class="button" onclick="buttonClicked(event)">Scissors</button>
+    </div>
+    <p>Your score: <span id="user-score">0</span></p>
+    <p>Computer's score: <span id="computer-score">0</span></p>
+    <p id="result"></p>
+    <button onclick="resetGame()">Reset Game</button>
     
 </body>
 </html> 
